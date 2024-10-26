@@ -26,5 +26,5 @@ func main() {
 
 	fmt.Println("Your subscription plan is :",premiumPlanName)
 	
-	fmt.Printf("\n --- %v, %f, %v, %q",  costPerMessage, messageLimit, hasPermission, totalCost, username)
+	fmt.Sprintf("\n --- %f, %d, %v, %d, %s",  costPerMessage, messageLimit, hasPermission, totalCost, username)
 }
